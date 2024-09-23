@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SendEther.sol": "Send"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SendEther.sol": {
+			"keccak256": "0xe0f85c3bc575decf1edb32838d5fb7de593aa11aede5067d2e1dce6191c80e11",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72af3200e03a8241d5f27f44e5e4b6d3d482408e39aca2b3cd10bd3702ceec2f",
+				"dweb:/ipfs/QmTmZL9cLvGyPZhLp2YQXABg9CzcK1E4YGfGpp1xH9tb1y"
+			]
+		}
+	},
+	"version": 1
+}

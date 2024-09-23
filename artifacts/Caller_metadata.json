@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_testContract",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_testContract",
+						"type": "address"
+					}
+				],
+				"name": "callNonExistentFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TestContract.sol": "Caller"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TestContract.sol": {
+			"keccak256": "0x38f74a36cfb0e3ebb79f3474ed3ef008f646e7d359ff31b0c03f4487f1b8d961",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1431e4bffad18cc863255b708cb331607cefb4a99ccf8d478c09c84b1219fe7f",
+				"dweb:/ipfs/QmTqej7uut4U6nEcNhsaVqtZ82hGAZ6Ttq4v7Uh42nZuYv"
+			]
+		}
+	},
+	"version": 1
+}

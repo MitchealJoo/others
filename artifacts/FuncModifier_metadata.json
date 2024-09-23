@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doubleNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FuncModifier.sol": "FuncModifier"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FuncModifier.sol": {
+			"keccak256": "0x504a24ce64a802c053405fe42f1d97210a7c38d1b533f451f66402b1b57c9f0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9852b5790691cad549d243f36dbf806ba739cb0fb1d941921ad647209fe580e7",
+				"dweb:/ipfs/Qmc4ytB26csW75487wBXqu7eb7QAWQMZfq9LJhE2KQtSZN"
+			]
+		}
+	},
+	"version": 1
+}
